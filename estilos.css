@@ -1,0 +1,332 @@
+body{
+    background-color: rgb(195, 255, 239);
+}
+
+.logoempresa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 20px 20px #fe8e33;
+}
+
+
+
+.logoempresa img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 60%;
+    margin-top: 1rem;
+    box-shadow: 0 0 30px #000000;
+
+
+}
+
+.logoempresa h1{
+    font-size: 2rem;
+    color: black;
+    font-weight: 900;
+    margin-top: 15px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 8px 8px 8px #000000;
+
+}
+.objetivos h2{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.enc{
+    background-color: rgb(152, 255, 255);
+    padding: 20px 0;
+}
+.enc_contenedor{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 252, 73);
+
+}
+.cont_contenedor{
+    width: 90%;
+    margin: 0 auto;
+}
+.navegacion{
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+.lista{
+   display: flex;
+   justify-content: space-between;
+
+    
+}
+
+.lista li a{
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.lista li a:hover{
+    color: rgb(255, 4, 0);
+    font-size: 1.8rem;
+}
+
+.contenido_productos {
+    width: 8rem;
+    height: 13rem;
+    background-color: rgb(0, 208, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 20px 20px #0193fc;
+
+}
+.contenido_productos img{
+    height: 5rem;
+    width: 5rem;
+
+}
+.productos h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-family: 'Lobster', cursive;
+    margin-top: 2rem;
+  
+}
+.contenido_1{
+display: flex;
+justify-content: space-between;
+
+}
+.mapa h2{
+    font-family: 'Lobster', cursive;
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+   
+}
+
+.imagen_mapa iframe{
+    width: 80rem;
+    height: 30rem;
+    margin-top: 2rem;
+}
+.contacto h2{
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem; 
+    font-family: 'Lobster', cursive;
+}
+.datos input{
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border-color: red;
+}
+.datos{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.datos textarea{
+    width: 100%;
+    height: 6rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 0.5;
+    border-radius: 1rem;
+    resize: none;
+    border-color: red;
+}
+.logo_social{
+    height: 10px;
+    width: 10px;
+}
+
+.datos button{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.lista_redes img{
+    height: 120px;
+    width: 120px;
+
+}
+.lista_redes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 60%;
+
+    
+}
+.derechos p{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  
+    
+
+}
+.redes_sociales{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenido_productos h3{
+        font-size: 2rem;
+        color: blueviolet;
+    }
+    .contenido_productos p{
+        font-size: 2rem;
+        color: aliceblue;
+        text-align: center;
+
+    }
+    .visita{
+        text-align: justify;
+        font-size: 2rem;
+        font-family: 'Pacifico', cursive;
+        margin-top: 1rem;
+        animation-name: slidein;
+        animation-duration: 3s;       
+    }
+    @keyframes slidein{
+        from{
+            margin-left: 100%;
+            width: 300%;
+        }
+        to{
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .lista li a{
+            font-size: 2rem;
+        }
+        .imagen_mapa iframe{
+            height: 50rem;
+        }
+        
+        .contenido_1{
+            width: 60%;
+            
+            
+            
+
+        }
+        .productos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .datos button{
+            width: 12rem;
+            height: 5rem;
+            margin-top: 2rem;
+            font-size: 2.5rem;
+        }
+        .datos textarea{
+            height: 15rem;
+        }
+        .derechos p{
+            font-size: 3rem;
+        }
+        .redes_sociales {
+            width: 50%;
+        }
+        .lista_redes{
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .lista{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+        .lista li a{
+            text-shadow: 10px 0 10px #000000;
+        }
+        
+        .contenido_1 {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           
+           
+        }
+        .contenido_productos{
+           width: 20rem;
+           background-color: transparent;
+           box-shadow: 0 0 0 transparent;
+        }
+        
+        .contenido_productos img {
+            border-radius: 40%;
+            box-shadow: 20px 20px 20px #4749dd;
+        }
+        
+        .contenido_productos p{
+            
+            font-family: 'Dancing Script', cursive;
+            
+            color: #000000;
+            margin-top: 1rem;
+            
+        }
+        .imagen_mapa iframe{
+            width: 330px;
+        }
+        .lista_redes{
+            width:80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .redes_sociales {
+            width: 100%;
+           
+         
+        }
+        .visita{
+            font-size: 1.5rem;
+            font-family: 'Pacifico', cursive;
+        }
+
+        }
+    
+    
+
+    
+
