@@ -114,8 +114,12 @@ justify-content: space-between;
    
 }
 
+.imagen_mapa{
+    width: 100%;
+}
+
 .imagen_mapa iframe{
-    width: 80rem;
+    width: 100%;
     height: 30rem;
     margin-top: 2rem;
 }
@@ -233,6 +237,7 @@ align-items: center;
         }
         .imagen_mapa iframe{
             height: 50rem;
+            width: 100%;
         }
         
         .contenido_1{
@@ -268,7 +273,7 @@ align-items: center;
         }
     }
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 767px){
         .lista{
             display: flex;
             flex-direction: column;
